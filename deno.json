@@ -5,7 +5,6 @@
         "build":"npm run build",
         "run": "deno task dev & deno task serve",
         "run-prod": "deno task dev & deno task build",
-        "sdk": "../local-modules/psychic-tribble npm start",
         "test": "deno test ./qa --allow-run  --allow-net --allow-env --allow-read",
         "bundle": "deno bundle ./src/server/index.js  ./src/server/static/bridge.js"
     }
