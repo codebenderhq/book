@@ -1,0 +1,21 @@
+node_modules
+.parcel-cache
+dist
+.npmrc
+.idea
+sandbox
+public
+.dfx
+target
+
+#ignored gateway files
+
+/gateway/node_modules
+/gateway/.next
+
+
+playground-dist
+
+local_modules
+./src/static
+static
