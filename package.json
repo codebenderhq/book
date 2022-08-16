@@ -1,9 +1,8 @@
 {
-  "name": "hello",
+  "name": "book",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
-  "source": "src/app/index.js",
   "module": "./src/server/static/index.js",
   "scripts": {
     "dev": "parcel",
@@ -16,15 +15,14 @@
   "devDependencies": {
     "@parcel/optimizer-data-url": "^2.6.0",
     "@parcel/packager-raw-url": "^2.7.0",
-    "@parcel/resolver-glob": "^2.6.0",
-    "@parcel/transformer-css": "^2.6.0",
-    "@parcel/transformer-inline-string": "^2.6.0",
+    "@parcel/resolver-glob": "^2.7.0",
+    "@parcel/transformer-css": "^2.7.0",
+    "@parcel/transformer-inline-string": "^2.7.0",
     "@parcel/transformer-webmanifest": "^2.7.0",
-    "@tailwindcss/forms": "^0.5.2",
     "autoprefixer": "^10.4.0",
     "crypto-browserify": "^3.12.0",
     "eslint": "^8.10.0",
-    "parcel": "^2.6.0",
+    "parcel": "^2.7.0",
     "path-browserify": "^1.0.1",
     "postcss": "^8.4.5",
     "postcss-modules": "^4.3.1",
@@ -35,5 +33,18 @@
   },
   "@parcel/transformer-css": {
     "cssModules": false
+  },
+  "dependencies": {
+    "@parcel/service-worker": "^2.7.0"
+  },
+  "targets": {
+    "module": {
+      "source": "./src/app/index.js",
+      "context": "browser"
+    },
+    "head": {
+      "source": "./src/app/root.html",
+      "distDir": "./src/server/static/"
+    }
   }
 }

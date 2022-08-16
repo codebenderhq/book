@@ -1,4 +1,18 @@
 {
-    "name": "Bacpack - built to serve developers",
-    "desc":"The future of your digital world begins here"
+    "id": "/?id=1",
+    "name": "Mmereko - Staffing Agency",
+    "short_name": "Mmereko",
+    "description":"The future of your digital world begins here",
+    "start_url": ".",
+    "display": "fullscreen",
+    "background_color": "#fff",
+    "icons": [
+          {
+            "src": "../assets/favicon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+          }
+    ],
+    "scope": "/",
+    "theme_color": "#fff"
 }

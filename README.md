@@ -24,3 +24,16 @@ and a play on what they should have helped us acomplished yet failed to beyond m
 </details>
 
  
+
+ <h2>Getting Started</h2>
+
+ <h3>Requirements</h3>
+
+ <a href="https://deno.land/#installation">Deno</a>
+ NPM
+
+ <code> npm install </code>
+ <code> deno task run </code>
+
+
+  <i>more coming soon</i>
