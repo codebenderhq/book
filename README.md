@@ -32,10 +32,10 @@ and a play on what they should have helped us acomplished yet failed to beyond m
  <a href="https://deno.land/#installation">Deno</a>
  NPM
 
- <code> npm install </code>
- <code> deno task run </code>
+```npm install``` 
+```deno task run ``` 
 
 
   <i>more coming soon</i>
   
-   <h2>How To Deploy</h2>
+  <!-- <h2>How To Deploy</h2> -->
