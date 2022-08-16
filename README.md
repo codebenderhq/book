@@ -37,3 +37,5 @@ and a play on what they should have helped us acomplished yet failed to beyond m
 
 
   <i>more coming soon</i>
+  
+   <h2>How To Deploy</h2>
