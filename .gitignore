@@ -7,14 +7,7 @@ sandbox
 public
 .dfx
 target
-
-#ignored gateway files
-
-/gateway/node_modules
-/gateway/.next
-
-
-playground-dist
+.env
 
 local_modules
 ./src/static

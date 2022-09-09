@@ -1,6 +1,6 @@
 {
     "tasks": {
-        "dev": "cd ./src && export DENO_ENV=DEV &&  deno run --watch --allow-net --allow-read --allow-env --allow-run ./server/index.js" ,
+        "dev": "export $(cat .env | xargs) && cd ./src &&  deno run --watch --allow-net --allow-read --allow-env --allow-run ./server/index.js" ,
         "serve":"npm run start",
         "build":"npm run build",
         "run": "deno task dev & deno task serve",
